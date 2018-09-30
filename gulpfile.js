@@ -60,6 +60,7 @@ gulp.task('scss', function(){
             cascade: false
         }))
         .pipe(gulp.dest(path.dest.css))
+        .pipe(browserSync.stream())
 });
 
 gulp.task('scripts', function(){
@@ -78,6 +79,7 @@ gulp.task('img', function(){
             use: [pngquant()]
        })))
        .pipe(gulp.dest(path.dest.img))
+
 });
 
 gulp.task('clean', function(){
@@ -91,7 +93,7 @@ gulp.task('serve', ['scss'], function() {
         server: "src"
     });
 
-    gulp.watch("src/assets/scss/*.scss", ['scss']);
+    gulp.watch("src/assets/scss/**/*.scss", ['scss']);
     gulp.watch("src/*.html").on('change', browserSync.reload);
 });
 

@@ -1,0 +1,31 @@
+/* Setting page */
+/* Grid System */
+html,
+body {
+  height: 100%; }
+
+body {
+  background: #fff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  height: 100%; }
+
+.welcome {
+  text-align: center;
+  font-family: "K2D", Arial, sans-serif; }
+  .welcome__sub-title {
+    color: #777;
+    font-size: 28px; }
+  .welcome__title {
+    color: #222;
+    margin: 0;
+    font-size: 48px; }
+
+/*# sourceMappingURL=data:application/json;charset=utf8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoic3R5bGUuY3NzIiwic291cmNlcyI6WyJzdHlsZS5zY3NzIiwiX3Zhci5zY3NzIiwiX2ZvbnRzLnNjc3MiXSwic291cmNlc0NvbnRlbnQiOlsiQGltcG9ydCAndmFyJztcclxuQGltcG9ydCAnZm9udHMnO1xyXG5cclxuaHRtbCxcclxuYm9keXtcclxuICBoZWlnaHQ6IDEwMCU7XHJcbn1cclxuXHJcbmJvZHl7XHJcbiAgYmFja2dyb3VuZDogJGJnQ29sb3I7XHJcbiAgZGlzcGxheTogZmxleDtcclxuICBhbGlnbi1pdGVtczogY2VudGVyO1xyXG4gIGp1c3RpZnktY29udGVudDogY2VudGVyO1xyXG4gIGhlaWdodDogMTAwJTtcclxufVxyXG5cclxuXHJcbi53ZWxjb21le1xyXG4gIHRleHQtYWxpZ246IGNlbnRlcjtcclxuICBmb250LWZhbWlseTogXCJLMkRcIiwgQXJpYWwsIHNhbnMtc2VyaWY7XHJcbiAgJl9fc3ViLXRpdGxle1xyXG4gICAgY29sb3I6ICM3Nzc7XHJcbiAgICBmb250LXNpemU6IDI4cHg7XHJcbiAgfVxyXG4gICZfX3RpdGxle1xyXG4gICAgY29sb3I6ICMyMjI7XHJcbiAgICBtYXJnaW46IDA7XHJcbiAgICBmb250LXNpemU6IDQ4cHg7XHJcbiAgfVxyXG59IiwiLyogU2V0dGluZyBwYWdlICovXHJcbiRiZ0NvbG9yOiAjZmZmO1xyXG4kZm9udFNpemU6IDE0cHg7XHJcblxyXG5cclxuLyogR3JpZCBTeXN0ZW0gKi9cclxuIiwiIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQ0FBLGtCQUFrQjtBQUtsQixpQkFBaUI7QURGakIsQUFBQSxJQUFJO0FBQ0osSUFBSSxDQUFBO0VBQ0YsTUFBTSxFQUFFLElBQUksR0FDYjs7QUFFRCxBQUFBLElBQUksQ0FBQTtFQUNGLFVBQVUsRUNSRixJQUFJO0VEU1osT0FBTyxFQUFFLElBQUk7RUFDYixXQUFXLEVBQUUsTUFBTTtFQUNuQixlQUFlLEVBQUUsTUFBTTtFQUN2QixNQUFNLEVBQUUsSUFBSSxHQUNiOztBQUdELEFBQUEsUUFBUSxDQUFBO0VBQ04sVUFBVSxFQUFFLE1BQU07RUFDbEIsV0FBVyxFQUFFLHdCQUF3QixHQVV0QztFQVRFLEFBQUQsbUJBQVksQ0FBQTtJQUNWLEtBQUssRUFBRSxJQUFJO0lBQ1gsU0FBUyxFQUFFLElBQUksR0FDaEI7RUFDQSxBQUFELGVBQVEsQ0FBQTtJQUNOLEtBQUssRUFBRSxJQUFJO0lBQ1gsTUFBTSxFQUFFLENBQUM7SUFDVCxTQUFTLEVBQUUsSUFBSSxHQUNoQiJ9 */

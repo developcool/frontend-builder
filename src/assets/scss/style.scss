@@ -1,4 +1,30 @@
+@import 'var';
+@import 'fonts';
+
+html,
 body{
-  background: red;
+  height: 100%;
+}
+
+body{
+  background: $bgColor;
   display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+
+
+.welcome{
+  text-align: center;
+  font-family: "K2D", Arial, sans-serif;
+  &__sub-title{
+    color: #777;
+    font-size: 28px;
+  }
+  &__title{
+    color: #222;
+    margin: 0;
+    font-size: 48px;
+  }
 }
