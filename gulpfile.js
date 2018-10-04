@@ -90,7 +90,8 @@ gulp.task('clean', function(){
 gulp.task('serve', ['scss'], function() {
 
     browserSync.init({
-        server: "src"
+        server: "src",
+        notify: false
     });
 
     gulp.watch("src/assets/scss/**/*.scss", ['scss']);
