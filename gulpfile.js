@@ -53,7 +53,7 @@ var path = {
 gulp.task('scss', function(){
     return gulp.src(path.src.scss)
         .pipe(sourcemap.init())
-        .pipe(scss().on('error', scss.logError))
+        .pipe(scss({ outputStyle: 'compressed' }).on('error', scss.logError))
         .pipe(sourcemap.write())
         .pipe(autoprefix({
             browsers: ['last 2 versions'],
@@ -100,7 +100,7 @@ gulp.task('serve', ['scss'], function() {
 
 gulp.task('build', ['clean', 'scss', 'scripts', 'img'], function(){
     var biuldCss = gulp.src([
-        'src/assets/scss/style.css'
+        'src/assets/css/style.css'
         ])
         .pipe(gulp.dest(path.production.css))
 
